@@ -1,7 +1,7 @@
 'use strict'
 console.log('c.js is present');
 
-fetch('https://dns.google.com/resolve?name=visaok.io&type=16', {mode: 'cors'})
+fetch('https://dns.google.com/resolve?name=testsecurebrowse.org&type=16', {mode: 'cors'})
     .then(r => r.json())
     .then(response => {
         document.getElementById('json').innerHTML = JSON.stringify(response, null, 4);
