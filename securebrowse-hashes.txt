@@ -1,5 +1,9 @@
 SECUREBROWSE 1.0
-a.css=sha256-3qLY6o924BINHEyK/hp9dv6famm378/7ltXz/Kz9orY=
-a.js=sha256-qvgRElKilQDiwQnf3wW3xgJ/7V1jEGivF9iyYuyLkeE=
-b.js=sha256-Mo/XcsJT6rMNNywuzTFL0akmlGLfpbC5QqEKsrihJbw=
-c.js=sha256-4Sk0d6Ept5yeqKsObHnN+mSV5LfiHSLhKfEv7kAjIjo=
+testsecurebrowse.org/a.css=sha256-3qLY6o924BINHEyK/hp9dv6famm378/7ltXz/Kz9orY=
+testsecurebrowse.org/a.js=sha256-qvgRElKilQDiwQnf3wW3xgJ/7V1jEGivF9iyYuyLkeE=
+testsecurebrowse.org/non-matching-sri/a.js=sha256-tGCktjKavWQs7tKmdg0/9qioF1Xcm63vQxIadbkQ6ZI=
+testsecurebrowse.org/bad-sri/a.js=sha256-qvgRElKilQDiwQnf3wW3xgJ/7V1jEGivF9iyYuyLkeE=
+testsecurebrowse.org/b.js=sha256-Mo/XcsJT6rMNNywuzTFL0akmlGLfpbC5QqEKsrihJbw=
+testsecurebrowse.org/c.js=sha256-y9az6VXO4VOCRbEdNt3X2e+qHFUu8LOaIapEc1BVahw=
+testsecurebrowse.org/d.js=sha256-8JjBrk9+nrn7BAjjTrG0/1eSTf930ltaAR9xGz39BTo=
+testsecurebrowse.org/good.html=sha256-n2ffSRLVpG6TgptsuXGTDvAvMa6BRVDSFm3pzCXmxaI=
