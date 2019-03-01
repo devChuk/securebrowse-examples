@@ -17,10 +17,6 @@ module.exports = {
             filePaths: ['./non-matching-sri/a.js']
         },
         {
-            urlPath: 'testsecurebrowse.org/bad-sri/a.js',
-            filePaths: ['./bad-sri/a.js']
-        },
-        {
             urlPath: 'testsecurebrowse.org/b.js',
             filePaths: ['./b.js']
         },
