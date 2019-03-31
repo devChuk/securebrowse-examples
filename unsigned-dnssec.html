@@ -1,0 +1,29 @@
+<!-- TODO: redirect to brianch.uk copy of this html document -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A valid web page</title>
+        <link href="http://testsecurebrowse.org/a.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>This is a web page that simulates <span class="red">unsigned</span> DNSSEC and <span class="green">matching</span> SRI.</h1>
+        <p>If you have SecureBrowse on, the icon should be red with unsafe HTML indicated. You shouldn't be able to view this at all since everything should be blocked.</p>
+        <p>Check out the other test pages here:<br>
+            <a href="http://testsecurebrowse.org/good.html">good.html</a><br>
+            <a href="http://testsecurebrowse.org/non-matching-sri/insecure-html.html">insecure-html.html</a><br>
+            <a href="http://testsecurebrowse.org/non-matching-sri/insecure-js.html">insecure-js.html</a><br>
+        </p>
+        <br><br>
+        <p>If you'd like to see what the TXT record looks like, <a href="https://dns.google.com/resolve?name=brianch.uk&type=TXT">check it out here</a>.</p>
+        <code id="json"></code>
+        <br><hr><br>
+        <p>Site code. Note the script and link elements on the top and bottom. Integrity attributes generated with <a href="https://report-uri.com/home/sri_hash">ReportURI</a>.</p>
+        <code id="doc"></code>
+        <script src="http://testsecurebrowse.org/a.js"></script>
+        <script src="http://testsecurebrowse.org/b.js"></script>
+        <script src="http://testsecurebrowse.org/c.js" defer></script>
+        <script src="http://testsecurebrowse.org/d.js"></script>
+    </body>
+</html>

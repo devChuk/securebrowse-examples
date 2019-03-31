@@ -13,10 +13,6 @@ module.exports = {
             filePaths: ['a.js']
         },
         {
-            urlPath: 'testsecurebrowse.org/non-matching-sri/a.js',
-            filePaths: ['./non-matching-sri/a.js']
-        },
-        {
             urlPath: 'testsecurebrowse.org/b.js',
             filePaths: ['./b.js']
         },
@@ -29,8 +25,24 @@ module.exports = {
             filePaths: ['./d.js']
         },
         {
+            urlPath: 'testsecurebrowse.org/',
+            filePaths: ['./index.html']
+        },
+        {
             urlPath: 'testsecurebrowse.org/good.html',
             filePaths: ['./good.html']
         },
+        {
+            urlPath: 'testsecurebrowse.org/non-matching-sri/insecure-html.html',
+            filePaths: ['./non-matching-sri/insecure-html.html']
+        },
+        {
+            urlPath: 'testsecurebrowse.org/non-matching-sri/insecure-js.html',
+            filePaths: ['./non-matching-sri/insecure-js.html']
+        },
+        {
+            urlPath: 'testsecurebrowse.org/non-matching-sri/a.js',
+            filePaths: ['./non-matching-sri/a.js']
+        }
     ]
 };

@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>A valid web page</title>
-        <link href="a.css" rel="stylesheet">
+        <link href="../a.css" rel="stylesheet">
     </head>
     <body>
-        <h1>This is a web page that simulates a <span class="green">signed</span> DNSSEC domain and <span class="green">matching</span> SRI.</h1>
-        <p>If you have SecureBrowse on, the icon should be green with 4 safe scripts, 1 safe css file, and verified HTML. No security issues here.</p>
+        <h1>This is a web page that simulates a <span class="green">signed</span> DNSSEC domain and <span class="red">non-matching</span> SRI.</h1>
+        <p>If you have SecureBrowse on, the icon should be red with unsafe HTML indicated. You shouldn't be able to view this at all since the HTML should be blocked.</p>
         <p>Check out the other test pages here:<br>
-            <a href="non-matching-sri/insecure-html.html">insecure-html.html</a><br>
-            <a href="non-matching-sri/insecure-js.html">insecure-js.html</a><br>
+            <a href="../good.html">good.html</a><br>
+            <a href="insecure-js.html">insecure-js.html</a><br>
             <a href="http://www.brianch.uk/croissant/unsigned-dnssec.html">unsigned-dnssec.html</a>
         </p>
         <br><br>
@@ -20,9 +20,9 @@
         <br><hr><br>
         <p>Site code. Note the script and link elements on the top and bottom. Integrity attributes generated with <a href="https://report-uri.com/home/sri_hash">ReportURI</a>.</p>
         <code id="doc"></code>
-        <script src="a.js"></script>
-        <script src="b.js"></script>
-        <script src="c.js" defer></script>
-        <script src="d.js"></script>
+        <script src="../a.js"></script>
+        <script src="../b.js"></script>
+        <script src="../c.js" defer></script>
+        <script src="../d.js"></script>
     </body>
 </html>
