@@ -1,8 +1,11 @@
 SECUREBROWSE 1.0
 testsecurebrowse.org/a.css=sha256-3qLY6o924BINHEyK/hp9dv6famm378/7ltXz/Kz9orY=
 testsecurebrowse.org/a.js=sha256-qvgRElKilQDiwQnf3wW3xgJ/7V1jEGivF9iyYuyLkeE=
-testsecurebrowse.org/non-matching-sri/a.js=sha256-tGCktjKavWQs7tKmdg0/9qioF1Xcm63vQxIadbkQ6ZI=
 testsecurebrowse.org/b.js=sha256-Mo/XcsJT6rMNNywuzTFL0akmlGLfpbC5QqEKsrihJbw=
-testsecurebrowse.org/c.js=sha256-y9az6VXO4VOCRbEdNt3X2e+qHFUu8LOaIapEc1BVahw=
+testsecurebrowse.org/c.js=sha256-+0auUbJRv4fMxAAuPqhVlI0WKRfQYdpBpEPKvgBFnPE=
 testsecurebrowse.org/d.js=sha256-8JjBrk9+nrn7BAjjTrG0/1eSTf930ltaAR9xGz39BTo=
-testsecurebrowse.org/good.html=sha256-n2ffSRLVpG6TgptsuXGTDvAvMa6BRVDSFm3pzCXmxaI=
+testsecurebrowse.org/=sha256-0d3ALLqHbU2+fCuNJeoQJcelFHPVh+S/QkBaQA4RHYY=
+testsecurebrowse.org/good.html=sha256-4OGxKz6aBil/XrcZHXoJS323PcLxVr1bwdWc499TxD4=
+testsecurebrowse.org/non-matching-sri/insecure-html.html=sha256-BZkMVaGyAZGeyp2F+kJoLvuXxUzmFEDTJWiin3HpkCo=
+testsecurebrowse.org/non-matching-sri/insecure-js.html=sha256-PhHQxDm582X0aMjJ6KwAHpZzKWjvEWD40d+jGWmlItc=
+testsecurebrowse.org/non-matching-sri/a.js=sha256-Z2ELSzTZuT8Zae77jcuKOFsCa+mSW1W7XEStX+/u+Sg=
